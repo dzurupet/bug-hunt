@@ -12,15 +12,9 @@
   a.async = 1
   a.src = g + '?' + Math.round(Date.now() / 1000 / 3600)
   m.parentNode.insertBefore(a, m)
-})(
-  window,
-  document,
-  'script',
-  'brandembassy',
-  'https://livechat-static-qa.brandembassy.com/3/chat.js'
-)
+})(window, document, 'script', 'brandembassy', 'https://livechat-static.brandembassy.com/3/chat.js')
 
-brandembassy('init', 6097, 'chat_1621706a-3516-4478-b398-ceff99c04bc6')
+brandembassy('init', 7141, 'chat_428cdf8c-885f-4b76-b844-0a12092c1272')
 brandembassy('setWindowWidth', '300px')
 brandembassy('setWindowHeight', '500px')
 brandembassy('setTranslation', 'replyBoxPlaceholder', 'Write a message')
